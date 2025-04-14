@@ -1,0 +1,22 @@
+h1{
+    text-align: center; /* Szöveg középre igazítása vízszintesen */
+    
+    margin-top: 90px;
+}
+
+body{
+  background-image: url(per.jpg); /* Háttérkép beállítása */
+    background-size: cover; /* A kép kitölti az egész hátteret */
+    background-repeat: no-repeat; /* A kép nem ismétlődik */
+    background-position: center; /* A kép középre igazodik */
+}          
+img{
+    display: block;
+    margin-top: 50px; /* Távolság a szövegtől */
+    margin-left: auto;
+    margin-right: auto;
+   
+    width: 50%; 
+    height: auto;
+    border-radius: 50%;
+}
